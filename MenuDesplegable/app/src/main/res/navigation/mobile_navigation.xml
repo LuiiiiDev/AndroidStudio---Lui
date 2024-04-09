@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="luis.escobar.menudesplegable.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="luis.escobar.menudesplegable.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="luis.escobar.menudesplegable.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_configuracion"
+        android:name="luis.escobar.menudesplegable.fragment_configuracion"
+        android:label="Configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/fragment_calificaciones"
+        android:name="luis.escobar.menudesplegable.fragment_calificaciones"
+        android:label="Calificaciones"
+        tools:layout="@layout/fragment_calificaciones" />
+    <fragment
+        android:id="@+id/fragment_imagenes"
+        android:name="luis.escobar.menudesplegable.fragment_imagenes"
+        android:label="Imagenes"
+        tools:layout="@layout/fragment_imagenes" />
+    <fragment
+        android:id="@+id/fragment_videos"
+        android:name="luis.escobar.menudesplegable.fragment_videos"
+        android:label="Videos"
+        tools:layout="@layout/fragment_videos" />
+</navigation>
