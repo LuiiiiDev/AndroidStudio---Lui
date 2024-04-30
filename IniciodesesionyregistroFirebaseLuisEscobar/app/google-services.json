@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452833503168",
+    "project_id": "fir-project-35ec1",
+    "storage_bucket": "fir-project-35ec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452833503168:android:278901ab77ea6d4fc80a25",
+        "android_client_info": {
+          "package_name": "luis.escobar.iniciodesesionyregistrofirebase_luisescobar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoEXL4fTy9shRibDQigURyjBHQXkee3xA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
