@@ -17,9 +17,9 @@
         android:title="Informacion" />
 
     <item
-        android:id="@+id/fragment_contactanos"
+        android:id="@+id/fragment_contacto"
         android:icon="@drawable/icon_contactanos"
-        android:title="@string/title_notifications" />
+        android:title="Contactanos" />
 
 
 </menu>

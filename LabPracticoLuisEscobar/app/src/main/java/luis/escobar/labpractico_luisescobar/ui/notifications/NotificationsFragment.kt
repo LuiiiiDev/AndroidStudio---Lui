@@ -4,10 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.findViewTreeViewModelStoreOwner
+import luis.escobar.labpractico_luisescobar.R
 import luis.escobar.labpractico_luisescobar.databinding.FragmentNotificationsBinding
+import java.lang.Exception
 
 class NotificationsFragment : Fragment() {
 
@@ -21,22 +26,35 @@ class NotificationsFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
+
+
     ): View {
         val notificationsViewModel =
             ViewModelProvider(this).get(NotificationsViewModel::class.java)
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
+        val btnMostrar = root.findViewById<Button>(R.id.btnInformacion)
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        btnMostrar.setOnClickListener {
+
+
+            btnMostrar.setOnClickListener {
+                Toast.makeText(context, "Hola! mi nombre es Luis José Escobar Romero", Toast.LENGTH_SHORT).show()
+
+            }
         }
         return root
+
+
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+
+
     }
+
+
 }

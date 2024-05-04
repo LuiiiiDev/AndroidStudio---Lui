@@ -23,8 +23,8 @@
         android:label="Informacion"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/fragment_contactanos"
-        android:name="luis.escobar.labpractico_luisescobar.fragment_contactanos"
-        android:label="fragment_contactanos"
-        tools:layout="@layout/fragment_contactanos" />
+        android:id="@+id/fragment_contacto"
+        android:name="luis.escobar.labpractico_luisescobar.fragment_contacto"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_contacto" />
 </navigation>
